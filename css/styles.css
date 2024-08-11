@@ -31,16 +31,15 @@ a {
 /* #region Header */
 .header {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 
-    0px 2px 1px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 1px 1px rgba(46, 47, 66, 0.08);
-
 }
 .header_content{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 
+    0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 1px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
@@ -135,6 +134,8 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section-name {
@@ -163,6 +164,7 @@ a {
     border-radius: 4px;
     border: none;
     margin-top: 48px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-btn:hover, .section-btn:focus {
     background-color: #404BBF
