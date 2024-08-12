@@ -380,7 +380,13 @@ a {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
+.container-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+.wrapper-logo-footer{
+    margin-right: 120px;
+}
 .footer-logo {
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -400,5 +406,14 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.icon-social-info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
 }
 /* #endregion Footer */
