@@ -297,6 +297,7 @@ a {
 .social-svg {
     fill:#f4f4fd;
 }
+
 /* #endregion 3 Section */
 
 /* #region 4 Section */
@@ -417,5 +418,11 @@ a {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+}
+.link-gap {
+    gap: 16px;
+}
+.link-add-hover:hover, .link-add-hover:focus{
+    background-color: #31d0aa;
 }
 /* #endregion Footer */
