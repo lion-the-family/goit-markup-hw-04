@@ -6,13 +6,6 @@
 * **Google Fonts** (Raleway & Roboto) for typography
 * Organized structure with reusable CSS in `/css/styles.css`
 
-### How to Use
-
-1. Clone or download the project.
-2. Open `index.html` in your browser.
-3. Customize the content and styles as needed.
-
-
 
 ### 🧩 General Styles
 
@@ -55,4 +48,10 @@
 
 ---
 
+
+### How to Use
+
+1. Clone or download the project.
+2. Open `index.html` in your browser.
+3. Customize the content and styles as needed.
 
